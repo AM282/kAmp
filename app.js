@@ -16,6 +16,7 @@ var campgroundRoutes=require("./routes/campgroundes");
 var authRoutes=require("./routes/index")
 
 //seedDB();
+const port= process.env.PORT||3000;
 mongoose.connect("mongodb://localhost/kAmpv14");
 
 
@@ -50,6 +51,6 @@ app.use(authRoutes);
 app.use(campgroundRoutes);
 app.use(commentRoutes);
 
-app.listen(3000,(req,res) =>{
+app.listen(port,(req,res) =>{
 	console.log("app is listening");
 });
