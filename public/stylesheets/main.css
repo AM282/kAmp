@@ -1,0 +1,17 @@
+body{
+	background-image: url("https://s3.amazonaws.com/btoimage/prism-thumbnails/articles/2017725-lake-superior.jpg-resize_then_crop-_frame_bg_color_FFF-h_1365-gravity_center-q_70-preserve_ratio_true-w_2048_.webp");
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size:cover;
+	height:100%;
+}
+#landing-header {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+}
+#landing-header h1 {
+  color: #fff;
+}
+
