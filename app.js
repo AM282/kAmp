@@ -17,7 +17,7 @@ var authRoutes=require("./routes/index")
 
 //seedDB();
 const port= process.env.PORT||3000;
-mongoose.connect("mongodb://localhost/kAmpv14");
+mongoose.connect("mongodb+srv://root:root@cluster0.bflaf.mongodb.net/kAmp14?retryWrites=true&w=majority");
 
 
 app.use(methodOverride("_method"));
